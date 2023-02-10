@@ -1,0 +1,4 @@
+<!-- <p>restaurant-list works!</p> -->
+<div *ngFor="let items of restaurantList">
+<a (click)="selectRestaurant(items.id)">{{items.name}}</a>
+</div>
